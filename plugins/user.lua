@@ -1,7 +1,12 @@
 return {
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
-     "nvim-neotest/neotest-python"
+     "nvim-neotest/neotest-python",
+     {
+     "christoomey/vim-tmux-navigator",
+     lazy = false
+     },
+     "sindrets/diffview.nvim",
   -- "andweeb/presence.nvim",
   -- {
   --   "rcarriga/nvim-dap-ui",
